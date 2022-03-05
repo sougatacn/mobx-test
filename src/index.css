@@ -1,0 +1,64 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+#toDoForm{
+  padding:0 20px;
+}
+.form-label{
+  margin: 0px 10px;
+  margin-left: 0;
+  line-height: 1.6;
+font-size: 20px;
+}
+.form-field{
+  margin: 20px 0;
+}
+.todoList{
+  margin: 20px;
+box-shadow: 1px 2px 14px 0px rgba(0,0,0,0.25);
+/* display: inline-block; */
+padding: 10px;
+background: silver;
+width: 400px;
+list-style-type: none;
+}
+.taskNameInput{
+  padding: 10px;
+  border: 2px solid black;
+  outline: none;
+}
+.subBtn{
+  background-color: black;
+  color: white;
+  padding: 10px 20px;
+  cursor: pointer;
+  outline: none;
+  border: none;
+}
+.editBtn{
+
+  height: 20px;
+  cursor: pointer;
+}
+.float-right{
+  float: right;
+  position: relative;
+top: -4px;
+}
+.editPage{
+  padding: 20px;
+}
+.updateBtn{
+  margin-top: 20px;
+  display: inline-block;
+}
